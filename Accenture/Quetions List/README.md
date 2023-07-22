@@ -1,7 +1,7 @@
-// QUESTION BANKS
+ QUESTION BANKS
 
 
-/ **
+
 
 
         1. Execute the given function.
@@ -657,5 +657,3 @@
 
 
 
-
-**/
