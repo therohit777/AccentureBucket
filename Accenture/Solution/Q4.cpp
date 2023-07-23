@@ -23,8 +23,6 @@ int Productsmallpair(int sum,int* a,int n){
         return 0;
     }
 
-
-
     return (sum>mini1 + mini2)? mini1*mini2 : 0;
 }
 
