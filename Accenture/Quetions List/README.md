@@ -291,24 +291,32 @@
 
 
         Accenture Coding Questions in C
-        11. The binary number system only uses two digits 1 and 0.
-        Perform the function: Int OperationsBinarystring(char* str)
+       
+       11. 
+       The binary number system only uses two digits, 0 and 1. Any string that represents a number in the binary number system can be called a binary string. You are required to implement the following function: 
 
-        Assumptions
+       int OperationsBinaryString(char *str);
 
-        Return to –1 if str is null.
-        The str is odd.
-        
-        Example:
+       The function accepts a string 'str' as its argument. The string 'str' consists of binary digits separated with an alphabet as follows: 
 
-        Input:
-        Str: ICOCICIAOBI
+       'A' denotes AND operation 
+       'B' denotes OR operation 
+       'C' denotes XOR operation 
+       You are required to calculate the result of the string 'str', scanning the string left to right, taking one operation at a time, and return the same. 
 
-        Output:
-        1
+       Note:
 
-        Explanation
-        The input when expanded is “1 XOR 0 XOR 1 XOR 1 XOR 1 AND 0 OR 1”. The result becomes 1 and hence the output is 1.
+       No order of priorities of operations is required. 
+       Length of 'str' is odd 
+       If 'str' is NULL or None(in case of python), return -1 
+
+       Example:
+       Input: 
+       str: ICOCICIAOBI 
+
+       Output: 
+
+       1 
         
 
 
